@@ -1,0 +1,19 @@
+{
+  "name": "juegodeofrendas",
+  "version": "1.0.0",
+  "description": "Aplicacion rapida para mostrar resultados de ofrendas en escuelita biblica 2024",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alejandro-jalf/JuegoDeOfrendas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandro-jalf/JuegoDeOfrendas/issues"
+  },
+  "homepage": "https://github.com/alejandro-jalf/JuegoDeOfrendas#readme"
+}

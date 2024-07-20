@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una Aventura por Mexico</title>
+    
+    <link rel="stylesheet" href="./styles/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <script src="./styles/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <h1>
+        <div id="btnAnterior" class="btn-title" onclick="showWinners(true)"></div>
+        Una Aventura por Mexico
+        <div id="btnNuevo" class="btn-title" onclick="cuentaRegresiva()"></div>
+    </h1>
+    <canvas id="bordeSuperior"></canvas>
+    <div id="containerRio">
+        <canvas id="rio"></canvas>
+    </div>
+    <canvas id="bordeInferior"></canvas>
+
+    <div id="conteo" class="container-conteo">
+        <span id="contador"></span>
+        <img id="fondo-conteo" src="./images/burrito.png" alt="">
+    </div>
+
+    <img hidden id="chinampa" src="./images/chinampagrande.png" alt="Chinampa Juego">
+    <img hidden id="start" src="./images/inicio.png" alt="Chinampa Juego">
+
+    <div id="containerResultados" class="container-resultados">
+        <div class="card card-results">
+            <div class="header-results">
+                <button class="close btn btn-light" type="button" onclick="closeGanadores()">X</button>
+                Resultados de Ofrendas
+            </div>
+            <div class="body-results">
+                <div id="positon1" class="item-results">
+                    <span class="postion-results">#1</span>
+                    <span id="nameResult1" class="name-results"></span>
+                    <span id="pointsResult1" class="puntos-results"></span>
+                </div>
+                <div id="positon2" class="item-results">
+                    <span class="postion-results">#2</span>
+                    <span id="nameResult2" class="name-results"></span>
+                    <span id="pointsResult2" class="puntos-results"></span>
+                </div>
+                <div id="positon3" class="item-results">
+                    <span class="postion-results">#3</span>
+                    <span id="nameResult3" class="name-results"></span>
+                    <span id="pointsResult3" class="puntos-results"></span>
+                </div>
+                <div id="positon4" class="item-results">
+                    <span class="postion-results">#4</span>
+                    <span id="nameResult4" class="name-results"></span>
+                    <span id="pointsResult4" class="puntos-results"></span>
+                </div>
+            </div>
+            <div class="footer-results">
+                <button class="btn-position btn btn-light" type="button" onclick="showPosition(1)">#1</button>
+                <button class="btn-position btn btn-light" type="button" onclick="showPosition(2)">#2</button>
+                <button class="btn-position btn btn-light" type="button" onclick="showPosition(3)">#3</button>
+                <button class="btn-position btn btn-light" type="button" onclick="showPosition(4)">#4</button>
+                <button class="btn-position btn btn-light" type="button" onclick="showPosition(-1)">Todos</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/chinampa.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
