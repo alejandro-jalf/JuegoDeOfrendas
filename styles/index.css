@@ -20,7 +20,6 @@ h1 {
 }
 
 .btn-title {
-    cursor: pointer;
     position: fixed;
     top: 40px;
     transition: background 0.3s;
@@ -101,8 +100,8 @@ h1 {
 }
 
 .container-resultados {
-    visibility: hidden;
-    opacity: 0;
+    /* visibility: hidden;
+    opacity: 0; */
     position: fixed;
     top: 0px;
     left: 0px;
@@ -204,3 +203,33 @@ h1 {
     margin: 0px 15px;
 }
 
+.footer-results-atajos {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.container-atajos {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: #ebebeb;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.item-atajo {
+    margin-left: 15px;
+}
+
+.accion {
+    font-weight: normal;
+}
+
+.comando {
+    font-weight: bold;
+}
