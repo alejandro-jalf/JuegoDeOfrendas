@@ -1,3 +1,7 @@
+* {
+    cursor: url('../images/burrito\ 50x50.png'), auto;
+}
+
 body {
     background: url('../images/banner2.jpg');
 }
@@ -113,7 +117,7 @@ h1 {
     width: 600px;
     height: 700px;
     margin: auto;
-    margin-top: calc(25% - 250px);
+    margin-top: 0px;
     background: #00000047;
     border-radius: 15px;
     border: 1px solid #fff;

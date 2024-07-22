@@ -73,3 +73,22 @@ const showWinners = (old = false) => {
     $containerResultados.style.visibility  = 'visible'
     $containerResultados.style.opacity  = '1'
 }
+
+document.addEventListener('keydown', (event) => {
+    if (event.ctrlKey && event.code === 'KeyY')
+        showWinners(true);
+    if (event.ctrlKey && event.code === 'KeyK')
+        cuentaRegresiva();
+    if (event.code === 'Escape')
+        closeGanadores();
+    if ((event.altKey && event.code === 'Digit1') || (event.altKey && event.code === 'Numpad1'))
+        showPosition(1);
+    if ((event.altKey && event.code === 'Digit2') || (event.altKey && event.code === 'Numpad2'))
+        showPosition(2);
+    if ((event.altKey && event.code === 'Digit3') || (event.altKey && event.code === 'Numpad3'))
+        showPosition(3);
+    if ((event.altKey && event.code === 'Digit4') || (event.altKey && event.code === 'Numpad4'))
+        showPosition(4);
+    if ((event.altKey && event.code === 'Digit0') || (event.altKey && event.code === 'Numpad0'))
+        showPosition(-1);
+});

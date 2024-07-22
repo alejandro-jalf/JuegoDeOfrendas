@@ -27,10 +27,10 @@ function cleanCanvas() {
 }
 
 function initChinampas() {
-    Joyitas.setChinampa('Joyitas y Corderitos', 30, 200);
-    Amigos.setChinampa('Amigos y Discipulos', 50, 150);
+    Joyitas.setChinampa('Joyitas', 30, 200);
+    Amigos.setChinampa('Amigos', 50, 150);
     Mensajeros.setChinampa('Mensajeros', 40, 120);
-    Exploradores.setChinampa('Exploradores', 30, 110);
+    Exploradores.setChinampa('Generacion de Vida', 30, 110);
 }
 
 function drawPistas() {
