@@ -100,8 +100,8 @@ h1 {
 }
 
 .container-resultados {
-    /* visibility: hidden;
-    opacity: 0; */
+    visibility: hidden;
+    opacity: 0;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -165,7 +165,7 @@ h1 {
     width: 90px;
     height: 100%;
     background: #fff;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     padding: 25px 10px;
     text-align: center;

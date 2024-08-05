@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 const $chinampa = document.querySelector('#chinampa');
 const $start = document.querySelector('#start');
 
-canvas.width = window.innerWidth + 500;
+canvas.width = window.innerWidth + 3500;
 canvas.height = 400
 
 // Declaracion de Grupos
@@ -27,10 +27,10 @@ function cleanCanvas() {
 }
 
 function initChinampas() {
-    Joyitas.setChinampa('Joyitas', 30, 200);
-    Amigos.setChinampa('Amigos', 50, 150);
-    Mensajeros.setChinampa('Mensajeros', 40, 120);
-    Exploradores.setChinampa('Generacion de Vida', 30, 110);
+    Joyitas.setChinampa('Joyitas', 1220.5, 927.5);
+    Amigos.setChinampa('Amigos', 1438.5, 1530.5);
+    Mensajeros.setChinampa('Mensajeros', 398, 127);
+    Exploradores.setChinampa('Generacion de Vida', 1601.5, 1645.5);
 }
 
 function drawPistas() {

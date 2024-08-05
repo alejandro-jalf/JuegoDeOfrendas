@@ -1,7 +1,7 @@
 
 function Chinampa() {
     const ref = this;
-    const MAX = 0.5;
+    const MAX = 3.5;
     const MIN = 0;
     
     ref.ValorActual = 0;
